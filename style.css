@@ -1,0 +1,208 @@
+body {
+  width: 100%;
+  margin: auto;
+  background-color: #6CE2F9;
+}
+
+.heading{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    background-color: #A063DD;
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding:10px;
+    width: 90%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+#tipText {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  background-color: #A063DD;
+  border-radius: 10px;
+  margin: auto;
+  padding:10px;
+  width: 90%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.gameboard-text { 
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+hr {
+  border-color: #000;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.rounded-corners {
+  border-radius: 10px;
+}
+
+#gameboard {
+  hight: 55%;
+  wide: 55%;
+  background-color: #A063DD;
+  padding: 30px;
+  border: 10px solid #fff;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.spacer {
+  width: 2%;
+}
+
+.options {
+  background-color: #A063DD;
+  border: 10px solid #fff;
+  margin-top: 15px;
+}
+
+.square {
+  width: 33%;
+  height: 120px;
+  font-size: 5em;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+#box3, #box5 {
+  border-top-style: solid;
+  border-top-width: thick;
+  border-top-color: #fff;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  border-bottom-color: #fff;
+}
+
+#box1, #box7 {
+  border-right-style: solid;
+  border-right-width: thick;
+  border-right-color: #fff;
+  border-left-style: solid;
+  border-left-width: thick;
+  border-left-color: #fff;
+}
+
+#box4 {
+  border-style: solid;
+  border-width: thick;
+  border-color: #fff;
+}
+/*
+#playing-area {
+  margin-bottom: 10px;
+}
+*/
+h1.giant {
+  font-size: 2em;
+}
+
+.no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+  font-size: 20px;
+}
+h4.difficulty {
+  border-radius: 6px;
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+  padding: 5px 15px;
+  cursor: pointer;
+  border: 3px solid #fff;
+}
+/*
+h4.selected {
+  padding: 4% 2%;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #6BE2F9;
+}
+*/
+.selected {
+  border: 3px solid #fff;
+  background-color: #6BE2F9;
+}
+
+.score {
+  border: 3px solid #fff;
+  border-radius: 6px;
+}
+button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  margin: 5px;
+}
+/*
+button.selected {
+  background-color: #6BE2F9;
+}
+*/
+.sidebar-title {
+  margin: 5px;
+  color: #000;
+  font-weight: bold;
+}
+
+.feedback-area {
+  background-color: #A063DD;
+  border: 10px solid #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+h1 {
+  margin-top: 10px;
+}
+#footer {
+    background-color: #A063DD;
+    color: #fff;
+    border-radius: 20px;
+    margin: 2em auto;
+    padding: 20px;
+    width: 90%;
+  }
+  footer {
+    text-align: center;
+    font-size: 15px;
+    margin: 20px;
+  }
+  footer a {
+    color: #fff;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  footer a:hover {
+    color: #000;
+  }
+  footer p {
+    margin: 0;
+    font-size: 17px;
+  }
